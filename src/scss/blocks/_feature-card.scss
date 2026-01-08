@@ -98,6 +98,38 @@
         transform: translate(-50%, -50%);
       }
     }
+    &--1 {
+      aspect-ratio: 397 / 300;
+      @include tablet {
+        aspect-ratio: unset;
+      }
+
+      @include mobile {
+        aspect-ratio: 16 / 9;
+      }
+    }
+
+    &--3 {
+      aspect-ratio: unset;
+      @include tablet {
+        aspect-ratio: 16 / 9;
+      }
+
+      @include mobile {
+        aspect-ratio: 16 / 9;
+      }
+    }
+
+    &--4 {
+      aspect-ratio: 187 / 220;
+      @include tablet {
+        aspect-ratio: unset;
+      }
+
+      @include mobile {
+        aspect-ratio: 16 / 9;
+      }
+    }
     // &--col-3-desktop {
     //   grid-column: span 3;
     // }
